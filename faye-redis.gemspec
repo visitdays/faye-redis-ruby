@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.files = %w[CHANGELOG.md README.md] +
             Dir.glob('lib/**/*.rb')
 
-  s.add_dependency 'eventmachine', '>= 0.12.0'
+  s.add_dependency 'eventmachine', '~> 1.0.0'
   s.add_dependency 'em-hiredis', '>= 0.2.0'
   s.add_dependency 'multi_json', '>= 1.0.0'
 
